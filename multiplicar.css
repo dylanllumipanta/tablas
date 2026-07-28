@@ -177,3 +177,40 @@ body{
     }
 
 }
+
+/* TÍTULO */
+.titulo{
+    text-align:center;
+    color:#00ffff;
+    margin-bottom:10px;
+    text-shadow:0 0 10px #00ffff;
+}
+
+/* DESCRIPCIÓN */
+.descripcion{
+    text-align:center;
+    color:#d9f8ff;
+    margin-bottom:25px;
+    line-height:1.5;
+}
+
+/* CONTENEDOR */
+.entrada{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom:20px;
+}
+
+/* ETIQUETA */
+.etiqueta{
+    color:#00ffff;
+    font-weight:bold;
+}
+
+/* MENSAJE DE AYUDA */
+.ayuda{
+    color:#9fdfff;
+    font-size:13px;
+    text-align:center;
+}
