@@ -1,7 +1,21 @@
 function generarTablas() {
 
-    let contenedor = document.getElementById("contenedor");
+    let tabla = document.getElementById("tabla");
 
-    contenedor.innerHTML = "<h1>PROBANDO</h1>";
+    let contenido = "";
+
+    for (let i = 1; i <= 10; i++) {
+
+        contenido += `
+            <div class="fila">
+                <div class="celda">3 × ${i}</div>
+                <div class="celda">=</div>
+                <div class="celda">${3 * i}</div>
+            </div>
+        `;
+
+    }
+
+    tabla.innerHTML = contenido;
 
 }
