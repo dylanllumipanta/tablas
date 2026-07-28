@@ -1,16 +1,22 @@
 function generarTablas() {
 
-    let tabla = document.getElementById("tabla");
+    let numero = parseInt(document.getElementById("txtNumero").value);
 
+    if (isNaN(numero)) {
+        alert("Ingrese un número.");
+        return;
+    }
+
+    let tabla = document.getElementById("tabla");
     let contenido = "";
 
     for (let i = 1; i <= 10; i++) {
 
         contenido += `
             <div class="fila">
-                <div class="celda">5 × ${i}</div>
+                <div class="celda">${numero} × ${i}</div>
                 <div class="celda">=</div>
-                <div class="celda">${5 * i}</div>
+                <div class="celda">${numero * i}</div>
             </div>
         `;
 
