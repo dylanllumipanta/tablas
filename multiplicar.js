@@ -8,9 +8,9 @@ function generarTablas() {
 
         contenido += `
             <div class="fila">
-                <div class="celda">3 × ${i}</div>
+                <div class="celda">5 × ${i}</div>
                 <div class="celda">=</div>
-                <div class="celda">${3 * i}</div>
+                <div class="celda">${5 * i}</div>
             </div>
         `;
 
